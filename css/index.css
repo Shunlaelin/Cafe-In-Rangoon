@@ -1,68 +1,83 @@
-body{
-	position: relative;
+body {
+  box-sizing: border-box;
+  margin: 0%;
 }
-.div1{
-	background: #1C1818;
-	width: 100%;
-	height: 600px;
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-.img1{
-	height: 600px;
+.left-container {
+  background: #1c1818;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 45%;
+  flex-direction: column;
 }
-.div2{
-	width: 39.5%;
-	height: 50px;
-	background: rgba(225, 225, 225, 0.5);
-	position: absolute;
-	right: 0;
-	top: 0;
+.div2 {
+  background: rgba(225, 225, 225, 0.5);
+  width: 80%;
 }
-ul{
-	display: inline-block;
+.div3 {
+  background: white;
+  width: 100%;
+  direction: rtl;
 }
-ul li{
-	font-family: 'Catamaran', sans-serif;
-	display: inline-block;
-	padding-left: 40px;
-	padding-right: 40px;
+.img1 {
+  height: 100%;
+  width: 55%;
 }
-a{
-	text-decoration: none;
-	color: black;
+.img3 {
+  width: 180px;
+  margin-top: -100px;
 }
-a:hover{
-	text-decoration: underline;
-}
-.img2{
-	position: absolute;
-	top: 27px;
-	left: 510px;
-	height: 550px;
-}
-h2{
-	position: absolute;
-	top: 165px;
-	right: 180px;
-	font-size: 70px;
-	color: #1C1818;
-}
-h1{
-	position: absolute;
-	top: 300px;
-	right: 120px;
-	color: white;
-}
-.div3{
-	width: 39.8%;
-	height: 100px;
-	background: white;
-	position: absolute;
-	right: 0;
-	bottom: 0;
 
+.text-shell {
+  width: 70%;
+  height: 80px;
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(../images/cafe2.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.img3{
-	position: absolute;
-	right: -300px;
-	top: 330px;
+h2 {
+  font-size: 60px;
+  color: #1c1818;
+  margin: 0;
+}
+h1 {
+  color: white;
+  margin: 0;
+  font-size: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul li {
+  font-family: "Catamaran", sans-serif;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+.img2 {
+  height: 550px;
 }
